@@ -1,0 +1,489 @@
+body{
+    margin: 0;
+padding: 0;
+font-family: 'Shippori Antique B1', sans-serif;
+background: rgb(248, 244, 244);
+background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+.topoptions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainlogo{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+
+.topsocials{
+    margin: 10px;
+    margin-right: 12px;
+}
+
+.sociallogo{
+    width: 35px;
+    height: 35px;
+    padding: 4px;
+}
+
+.toplogo{
+    display: flex;
+    justify-content: center;
+}
+
+.namearea{
+    margin: auto;
+    justify-content: space-around;
+
+}
+
+.logo{
+    margin-top: 10px;
+    width: 200px;
+    padding: 10px;
+}
+
+
+.top{
+    background: linear-gradient( rgba(0, 0, 0, 0.17),
+     rgba(0, 0, 0, 0.17) ), url(teamphoto.jpg);
+     width: 100%;
+     height: auto;
+     margin: 0px;
+    padding-bottom: 20px;
+    background-size: 2500px;
+  vertical-align: top;
+  background-position: center center;
+}
+
+.logomain{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.toptext{
+    color: azure;
+    max-width : 350px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    font-size: 36px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+
+.sloganarea{
+    padding: 0px 10px 0px 10px;
+}
+
+.subtitle span{
+    padding: 10px 15px 10px 15px;
+    border-radius: 7px;
+}
+
+
+.subtitle{
+    box-sizing: border-box; 
+    border-radius: 3px;
+    border: #FFF, 5px , solid;
+    padding: 10px 15px 10px 15px;
+    background-color: rgba(0 0 0 / .3); 
+    color: #fff;
+    max-width : 1000px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    text-size-adjust: 100%;
+    margin-bottom: 15px;
+}
+
+
+.achievementsbtn{
+    border: 3px solid white;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    width: 175px;
+    height: fit-content;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.20em;
+    text-transform: uppercase;
+    transition: 0.6s ease;
+}
+
+.achievementsbtn:hover{
+    background: #fff;
+    color: black;
+}
+
+.contactbtn{
+    
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    width: 180px;
+    height: fit-content;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.20em;
+    text-transform: uppercase;
+    transition: 0.6s ease;
+}
+
+
+.streetimg{
+    width: 350px;
+    height: 200px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.stageimg{
+    width: 350px;
+    height: 200px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.sub{
+    padding: 10px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.productiontxt{
+    font-weight: 600;
+    color: black;
+    font-size: 30px;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 0px 15px 0px 15px;
+}
+
+.street{
+    
+    background: #FFF;
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+.aboutplay{
+    margin: 15px;
+    display: flex;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: 'Signika', sans-serif;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+.prodtitle{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-family: 'Signika', sans-serif;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+
+.watchplay{
+    background-color: orangered;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    width: 200px;
+    height: fit-content;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.6s ease;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.stage{
+    background: #fff;
+    width: 350px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+
+.previous{
+    margin-top: 25px;
+}
+
+.previousbtn{
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    width: 250px;
+    height: fit-content;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.6s ease;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.songsbtn{
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    width: 250px;
+    height: fit-content;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.6s ease;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.spotifylogo{
+    width: 30px;
+    margin-right: 15px;
+}
+
+.achievements{
+    background: black;
+}
+
+.achievementstxt{
+    font-weight: 600;
+    color: #fff;
+    font-size: 30px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 30px;
+}
+
+.achievementscontent{
+    padding: 10px ;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin: 25px;
+    margin-bottom: 30px;
+}
+
+.trophyimg{
+    width: 320px;
+    height: 350px;
+}
+
+.positions{
+    width: fit-content;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.positiondetails{
+    color: #fff;
+    margin: auto;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.allachievementsbtn{
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: fit-content;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.6s ease;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.coretxt{
+    font-weight: 600;
+    color: black;
+    font-size: 30px;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 0px 15px 0px 15px;
+}
+
+
+.corediv{
+    padding: 10px ;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    flex-flow: wrap;
+    max-width: 1200px;
+}
+
+.corediv2{
+    margin: auto;
+    display: grid;
+    justify-content: center;
+}
+
+.coreimg{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+    justify-content: center;
+}
+
+.corename{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 230px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    font-family: 'Signika', sans-serif;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+.coreposition{
+    color: rgb(4, 2, 61);
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 2px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.corephone{
+    color: rgb(4, 2, 61);
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 2px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.footer{
+    background-color: black;
+    padding-bottom: 40px;
+    margin-top: 50px;
+}
+
+.ifquerytext{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    max-width: 390px;
+    height: fit-content;
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+}
+
+.whatsapp{
+    background-color: rgb(45, 223, 10);
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    height: fit-content;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.6s ease;
+    justify-content: center;
+    display: flex;
+    margin: auto;  
+}
+
+.footersocials{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
